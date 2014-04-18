@@ -1,0 +1,23 @@
+﻿body {
+}
+ #foxtail{ background:url(/fireFOXimg/foxtail.png);
+             width:156px;
+             height:156px;
+             top: 90px;
+			left: 30px;
+			position: absolute;           }
+@keyframes animate-tail {  
+    0% {background-position: -6864px 0; }
+    100% {background-position: 0 0;}
+}
+
+#foxtail {
+  animation: animate-tail 3.75s steps(44) infinite;
+}
+.background {
+			height: 373px;
+			width: 244px;
+			background: url(/fireFOXimg/screen-overview.jpg) 0 0 no-repeat;
+			position: relative;
+padding-bottom:30px;
+		}
